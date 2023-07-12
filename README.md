@@ -84,6 +84,18 @@ source install/setup.bash
 
 - **TODO** : There is a still warning message.  
 
+### Re-enter the activated docker container  
+```
+docker exec -it -w /root/workspace multi-turtlebot-gazebo /bin/bash
+```
+```
+source /opt/ros/humble/setup.bash
+```
+```
+source install/setup.bash
+```
+
+
 ### Multi-turtlebot3  
 
 ```
@@ -97,4 +109,9 @@ ros2 launch turtlebot3_gazebo turtlebot3_velodyne_burger.launch.py
 ### Mutli-turtlebot3 with Velodyne VLP-16
 ```
 ros2 launch turtlebot3_gazebo multi_turtlebot3_velodyne_world.launch.py
+```
+
+### For keyboard teleop  
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=/tb3_0/cmd_vel
 ```
