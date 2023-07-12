@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <!-- We use a custom world for the rrbot so that the camera angle is launched correctly -->
+
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://turtlebot3_room</uri>
+    </include>
+
+    <include>
+      <pose>0 -1.7 0.01 0.0 0.0 0.0</pose>
+      <uri>model://turtlebot3_burger</uri>
+    </include>
+    
+  </world>
+</sdf>
