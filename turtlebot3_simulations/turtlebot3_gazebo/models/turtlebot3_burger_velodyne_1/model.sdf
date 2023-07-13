@@ -41,7 +41,7 @@
 
   
       <visual name='base_footprint_fixed_joint_lump__velodyne_base_link_visual_1'>
-        <pose>0 0 0.3 0 0 0</pose>
+        <pose>-0.020 0 0.16 0 0 0</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -50,7 +50,7 @@
         </geometry>
       </visual>
       <visual name='base_footprint_fixed_joint_lump__velodyne_base_link_visual_2'>
-        <pose>0 0 0.3 0 0 0</pose>
+        <pose>-0.020 0 0.16 0 0 0</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -59,7 +59,7 @@
         </geometry>
       </visual>
       <visual name='base_footprint_fixed_joint_lump__velodyne_visual_3'>
-        <pose>0 0 0.3 0 0 0</pose>
+        <pose>-0.020 0 0.16 0 0 0</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
@@ -80,7 +80,7 @@
       </visual>
 
       <sensor name='velodyne-VLP16' type='ray'>
-        <visualize>1</visualize>
+        <visualize>0</visualize>
         <update_rate>10</update_rate>
         <ray>
           <scan>
@@ -205,7 +205,7 @@
       </collision>
 
       <visual name="lidar_sensor_visual">
-        <pose>-0.032 0 0.171 0 0 0</pose>
+        <pose>-0.020 0 0.161 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://turtlebot3_burger_velodyne/meshes/lds.stl</uri>

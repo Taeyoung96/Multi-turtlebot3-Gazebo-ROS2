@@ -128,6 +128,23 @@ ros2 launch turtlebot3_gazebo multi_turtlebot3_velodyne_world.launch.py
 ```
 
 ### For keyboard teleop  
+
+Check `/tb3_0/cmd_vel` and remapping topic.
+
 ```
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:=/tb3_0/cmd_vel
 ```
+
+### Check TF   
+
+```
+ros2 run tf2_tools view_frames
+```
+
+## Acknowldegement
+
+`multi_turtlebot3_world.launch` code is used for [ROS2 Navigation Online Course | The Construct](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/ros2-navigation/).  
+
+For velodyne, I followed [this youtube link](https://youtu.be/NNR9RUNz5Pg) and modified the code.  
+
+Each folder has their own license.  
