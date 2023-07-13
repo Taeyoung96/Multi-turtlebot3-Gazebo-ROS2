@@ -143,6 +143,13 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:
 ros2 run tf2_tools view_frames
 ```
 
+## TODO  
+
+When we run the launch file, we get an error display like the one below. It's fine to execute, but we need to figure out why.  
+
+![Screenshot from 2023-07-12 23-32-57](https://github.com/Taeyoung96/Multi-turtlebot3-Gazebo-ROS2/assets/41863759/9dde598b-ea00-4fc6-823b-051e6f8220ce)
+
+
 ## Acknowldegement
 
 `multi_turtlebot3_world.launch` code is used for [ROS2 Navigation Online Course | The Construct](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/ros2-navigation/).  
