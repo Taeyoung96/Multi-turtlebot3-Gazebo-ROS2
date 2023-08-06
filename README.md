@@ -13,14 +13,16 @@
 - [TF result](https://github.com/Taeyoung96/Multi-turtlebot3-Gazebo-ROS2/blob/master/tf_results/multi-robot.pdf)
  
 
-https://github.com/Taeyoung96/Multi-turtlebot3-Gazebo-ROS2/assets/41863759/a7e5c019-68aa-47b5-8670-84e15d32e7d5
+https://github.com/Taeyoung96/Multi-turtlebot3-Gazebo-ROS2/assets/41863759/89b961ef-96a2-440c-b406-d72db7ca710f
 
 
 ### Turtlebot3 with Velodyne VLP-16
 
 - [TF result](https://github.com/Taeyoung96/Multi-turtlebot3-Gazebo-ROS2/blob/master/tf_results/velodyne-tf.pdf)
 
-https://github.com/Taeyoung96/Multi-turtlebot3-Gazebo-ROS2/assets/41863759/7cdffde8-152f-4578-8fdd-0fefc65de9c7
+
+https://github.com/Taeyoung96/Multi-turtlebot3-Gazebo-ROS2/assets/41863759/4eb346fa-8b4e-4211-bf02-bcd098046fbb
+
 
 
 ## Build docker image 
@@ -140,6 +142,13 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap cmd_vel:
 ```
 ros2 run tf2_tools view_frames
 ```
+
+## TODO  
+
+When we run the launch file, we get an error display like the one below. It's fine to execute, but we need to figure out why.  
+
+![Screenshot from 2023-07-12 23-32-57](https://github.com/Taeyoung96/Multi-turtlebot3-Gazebo-ROS2/assets/41863759/9dde598b-ea00-4fc6-823b-051e6f8220ce)
+
 
 ## Acknowldegement
 
